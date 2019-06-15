@@ -1,5 +1,5 @@
 # Telegram Channel Members Lottery
-You can export all the Telegram members' information, and choose the winner
+You can export all the Telegram members' information of channel, and choose the winner
 
 # Installation
 1- Install telethon
