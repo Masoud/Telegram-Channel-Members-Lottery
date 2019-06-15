@@ -23,7 +23,7 @@ def get_env(name, message, cast=str):
 session = os.environ.get('TG_SESSION', 'winner')
 api_id = get_env('TG_API_ID', 'Enter your API ID: ', int)
 api_hash = get_env('TG_API_HASH', 'Enter your API hash: ')
-channel = 'arvancloud'
+channel = get_env('TG_CHANNEL_NAME', 'Enter your Channel Name: ')
 proxy = None  
 
 
